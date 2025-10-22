@@ -20,7 +20,7 @@ const Navbar = () => {
           <Flex justifyContent="space-between" alignItems="center">
             <Box>
               <Image
-                src="./bright-logo-cropped-no-bcground.png"
+                src="/logos/bright-star-logo-no-bcground.png"
                 alt="Bright Star Logo"
                 width="16rem"
                 height="5rem"
