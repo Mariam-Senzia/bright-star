@@ -27,10 +27,10 @@ const Navbar = () => {
               />
             </Box>
 
-            <Flex gap="25px" fontSize="1.1rem" fontWeight="600" color="#555">
+            <Flex gap="25px" fontSize="1.1rem" fontWeight="600" color="#333">
               <Link
                 href="/"
-                color={pathname === "/" ? "#1239AC" : "#555"}
+                color={pathname === "/" ? "#1239AC" : "inherit"}
                 textDecoration={pathname === "/" ? "underline" : "none"}
                 textUnderlineOffset="8px"
                 _hover={{
@@ -44,7 +44,7 @@ const Navbar = () => {
               </Link>
               <Link
                 href="services"
-                color={pathname === "/services" ? "#1239AC" : "#555"}
+                color={pathname === "/services" ? "#1239AC" : "inherit"}
                 textDecoration={pathname === "/services" ? "underline" : "none"}
                 textUnderlineOffset="8px"
                 _hover={{
@@ -57,7 +57,7 @@ const Navbar = () => {
               </Link>
               <Link
                 href="contact"
-                color={pathname === "/contact" ? "#1239AC" : "#555"}
+                color={pathname === "/contact" ? "#1239AC" : "inherit"}
                 textDecoration={pathname === "/contact" ? "underline" : "none"}
                 textUnderlineOffset="8px"
                 _hover={{
@@ -75,7 +75,7 @@ const Navbar = () => {
                 <FaPhoneVolume fontSize="2.2rem" color="#1239AC" />
               </Box>
               <Box>
-                <Heading fontSize="lg" color="#555">
+                <Heading fontSize="lg" color="inherit">
                   Quick Connect
                 </Heading>
                 <Text fontSize="xl" color="#1239AC">
