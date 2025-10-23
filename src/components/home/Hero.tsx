@@ -25,11 +25,26 @@ const Hero = () => {
           flexDirection="column"
           justifyContent="center"
         >
-          <Box>
-            <Heading width="60%" fontSize="5rem" color="#fff">
+          <Box
+            borderLeftColor="#fff"
+            borderLeftWidth="0.4rem"
+            paddingLeft="2rem"
+          >
+            <Heading fontSize="1rem" color="#fff" textTransform="uppercase">
+              Cleaning & Pest control
+            </Heading>
+            <Heading
+              width="80%"
+              fontSize="6rem"
+              color="#fff"
+              marginBottom="-1rem"
+            >
               Best Cleaning Service in Town!
             </Heading>
-            <Text width="65%" fontSize="1.5rem" mt="1rem" color="#eee">
+          </Box>
+
+          <Box>
+            <Text width="65%" fontSize="1.5rem" mt="4rem" color="#eee">
               We are a professional cleaning and pest control service provider
               based in Busia. We deliver quality, reliable, and affordable
               cleaning services to homes and offices with a trained team and
@@ -37,122 +52,90 @@ const Hero = () => {
             </Text>
           </Box>
 
-          <Box display="flex" gap="1rem" alignItems="center" mt="2rem">
+          <Box display="flex" gap="1rem" alignItems="center" mt="3rem">
             <Box display="flex">
-              <Box
+              <Image
+                src="/hero/happy-cust-5.webp"
+                alt="happy-customer"
+                width="3.5rem"
+                height="3.5rem"
                 borderRadius="50%"
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-                background="#fff"
-                p="0.2rem"
-              >
-                <Image
-                  src="/hero/happy-cust-5.webp"
-                  alt="happy-customer"
-                  width="4rem"
-                  height="4rem"
-                  borderRadius="50%"
-                  objectFit="cover"
-                  objectPosition="top"
-                />
-              </Box>
-              <Box
-                ml="-15px"
-                borderRadius="50%"
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-                background="#fff"
-                p="0.2rem"
-              >
-                <Image
-                  src="/hero/happy-cust-1.webp"
-                  alt="happy-customer"
-                  width="4rem"
-                  height="4rem"
-                  borderRadius="50%"
-                  objectFit="cover"
-                  objectPosition="top"
-                />
-              </Box>
-              <Box
-                ml="-15px"
-                borderRadius="50%"
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-                background="#fff"
-                p="0.2rem"
-              >
-                <Image
-                  src="/hero/happy-cust-4.webp"
-                  alt="happy-customer"
-                  width="4rem"
-                  height="4rem"
-                  borderRadius="50%"
-                  objectFit="cover"
-                  objectPosition="top"
-                />
-              </Box>
-              <Box
-                ml="-15px"
-                borderRadius="50%"
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-                background="#fff"
-                p="0.2rem"
-              >
-                <Image
-                  src="/hero/happy-cust-2.webp"
-                  alt="happy-customer"
-                  width="4rem"
-                  height="4rem"
-                  borderRadius="50%"
-                  objectFit="cover"
-                  objectPosition="center"
-                />
-              </Box>
-              <Box
-                ml="-15px"
-                borderRadius="50%"
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-                background="#fff"
-                p="0.2rem"
-              >
-                <Image
-                  src="/hero/happy-cust-6.webp"
-                  alt="happy-customer"
-                  width="4rem"
-                  height="4rem"
-                  borderRadius="50%"
-                  objectFit="cover"
-                  objectPosition="center"
-                />
-              </Box>
+                objectFit="cover"
+                objectPosition="top"
+                style={{
+                  border: "3px solid #fff",
+                }}
+              />
 
-              <Box
+              <Image
+                src="/hero/happy-cust-1.webp"
+                alt="happy-customer"
                 ml="-15px"
+                width="3.5rem"
+                height="3.5rem"
                 borderRadius="50%"
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-                background="#fff"
-                p="0.2rem"
-              >
-                <Image
-                  src="/hero/happy-cust-3.webp"
-                  alt="happy-customer"
-                  width="4rem"
-                  height="4rem"
-                  borderRadius="50%"
-                  objectFit="cover"
-                  objectPosition="center"
-                />
-              </Box>
+                objectFit="cover"
+                objectPosition="top"
+                style={{
+                  border: "3px solid #fff",
+                }}
+              />
+
+              <Image
+                src="/hero/happy-cust-4.webp"
+                alt="happy-customer"
+                ml="-15px"
+                width="3.5rem"
+                height="3.5rem"
+                borderRadius="50%"
+                objectFit="cover"
+                objectPosition="top"
+                style={{
+                  border: "3px solid #fff",
+                }}
+              />
+
+              <Image
+                src="/hero/happy-cust-2.webp"
+                alt="happy-customer"
+                ml="-15px"
+                width="3.5rem"
+                height="3.5rem"
+                borderRadius="50%"
+                objectFit="cover"
+                objectPosition="center"
+                style={{
+                  border: "3px solid #fff",
+                }}
+              />
+
+              <Image
+                src="/hero/happy-cust-6.webp"
+                alt="happy-customer"
+                ml="-15px"
+                width="3.5rem"
+                height="3.5rem"
+                borderRadius="50%"
+                objectFit="cover"
+                objectPosition="center"
+                style={{
+                  border: "3px solid #fff",
+                }}
+              />
+
+              <Image
+                src="/hero/happy-cust-3.webp"
+                alt="happy-customer"
+                ml="-15px"
+                width="3.5rem"
+                height="3.5rem"
+                borderRadius="50%"
+                objectFit="cover"
+                objectPosition="center"
+                style={{
+                  border: "3px solid #fff",
+                }}
+              />
             </Box>
 
             <Box color="#fff">
@@ -163,7 +146,7 @@ const Hero = () => {
             </Box>
           </Box>
 
-          <Box display="flex" alignItems="center" mt="2rem" gap="1rem">
+          <Box display="flex" alignItems="center" mt="3rem" gap="2rem">
             <Link href="/services">
               <Button
                 fontSize="1.1rem"
@@ -199,7 +182,7 @@ const Hero = () => {
                 color: "#F7C02D",
                 transform: "translateY(-2px)",
               }}
-              ml="-0.5rem"
+              ml="-1.5rem"
             >
               <span style={{ color: "#F7C02D", fontWeight: "bold" }}>
                 Contact Us
