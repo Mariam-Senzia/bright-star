@@ -19,16 +19,16 @@ const Statistics = () => {
   });
 
   return (
-    <Box>
+    <Box bgGradient="linear(to-b, #f9fafc, #f2f4f8)">
       <Container maxW="container.xl">
-        <Box textAlign="center" paddingTop="3rem">
+        {/* <Box textAlign="center" paddingTop="3rem">
           <Heading fontSize="2rem" mb="0.5rem">
             Our Impact in Numbers
           </Heading>
           <Text fontSize="1.2rem">
             We have been making homes and offices cleaner, one space at a time
           </Text>
-        </Box>
+        </Box> */}
 
         <SimpleGrid
           gridTemplateColumns="repeat(4, 1fr)"
